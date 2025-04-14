@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "38602855682",
+    "project_id": "pr-comp-react-examen",
+    "storage_bucket": "pr-comp-react-examen.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38602855682:android:4da9a5e632a6279c5e1e1b",
+        "android_client_info": {
+          "package_name": "com.iplacex.pr_comp_react_examen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr1X7am4kjIr77rKYgz-YBzixEJFN35BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
