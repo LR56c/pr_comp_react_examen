@@ -25,9 +25,16 @@ import App from './App'
 // Wait for the deviceready event before using any of Cordova's device APIs.
 // See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
 
+createRoot( document.getElementById( "root" )! ).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App/>
+    </BrowserRouter>
+  </StrictMode>
+)
+
 document.addEventListener('deviceready', onDeviceReady, false);
 function onDeviceReady() {
-    // Cordova is now initialized. Have fun!
   createRoot( document.getElementById( "root" )! ).render(
     <StrictMode>
       <BrowserRouter>

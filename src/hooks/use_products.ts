@@ -1,5 +1,4 @@
 import { useState }  from "react"
-import axios from "axios"
 import {
   FirebaseFirestoreProductsData
 }                    from "../modules/infrastructure/firebase_firestore_products_data"
